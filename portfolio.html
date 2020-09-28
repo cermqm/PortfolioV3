@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Required meta tags -->
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <!-- Bootstrap CSS -->
+
+    <!-- CSS to add additional styling -->
+    <link rel="stylesheet" href="style.css">
+    <!-- CSS to add additional styling -->
+
+    <!-- Needed to include navbar from external html -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Needed to include navbar from external html -->
+
+    <!-- Title of browser page -->
+    <title>Portfolio</title>
+    <!-- Title of browser page -->
+
+</head>
+
+<body>
+
+    <!--Navigation bar-->
+    <div id="nav-placeholder"></div>
+    <script>
+        $("#nav-placeholder").load("navbar.html");
+    </script>
+    <!--end of Navigation bar-->
+
+    <!-- Container so that header is same size as cards -->
+    <div class="container">
+        <!-- Container so that header is same size as cards -->
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12">
+                <!-- Page header -->
+                <h3 id=headerstyling>Portfolio</h3>
+                <!-- Page header -->
+            </div>
+        </div>
+
+        <!-- Creating a card for each portfolio entry -->
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4">
+            <div class="col mb-4">
+                <figure class="card">
+                    <img src="exploration.jpg" class="card-img-top" alt="Photography">
+                    <div class="card-body">
+                        <h3 class="card-title"><span><a href="https://cermqm.github.io/explorationfood/" target="_blank">Exploration</a></span></h3>
+                        <h6 class="card-title"><span><a href="https://github.com/cermqm/explorationfood" target="_blank">Repo</a></span></h6>
+                    </div>
+                </figure>
+            </div>
+            <!-- Creating a card for each portfolio entry -->
+            <div class="col mb-4">
+                <figure class="card">
+                    <img src="weather.jpg" class="card-img-top" alt="Weather image">
+                    <div class="card-body">
+                        <h3 class="card-title"><span><a href="https://cermqm.github.io/weatherapp/" target="_blank">Weather</a></span></h3>
+                        <h6 class="card-title"><span><a href="https://github.com/cermqm/weatherapp" target="_blank">Repo</a></span></h6>
+                    </div>
+                </figure>
+            </div>
+            <!-- Blank cards to push everything to the left -->
+            <div class="col mb-4">
+                <figure class="card">
+                    <img src="techbackground.jpg" class="card-img-top" alt="Refactor Image">
+                    <div class="card-body">
+                        <h3 class="card-title"><span><a href="https://cermqm.github.io/dayplanner/" target="_blank">Day Planner</a></span></h3>
+                        <h6 class="card-title"><span><a href="https://github.com/cermqm/dayplanner" target="_blank">Repo</a></span></h6>
+                    </div>
+                </figure>
+            </div>
+            <div class="col mb-4">
+                <figure class="card">
+                    <img src="ones-and-zeros.jpg" class="card-img-top" alt="Photography">
+                    <div class="card-body">
+                        <h3 class="card-title"><span><a href="https://cermqm.github.io/javascriptquiz/" target="_blank">JS Quiz</a></span></h3>
+                        <h6 class="card-title"><span><a href="https://github.com/cermqm/javascriptquiz" target="_blank">Repo</a></span></h6>
+                    </div>
+                </figure>
+            </div>
+            <!-- Blank cards to push everything to the left -->
+        </div>
+        <!-- Creating a card for each portfolio entry -->
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4">
+            <div class="col mb-4">
+                <figure class="card">
+                    <img src="photography.jpg" class="card-img-top" alt="Photography">
+                    <div class="card-body">
+                        <h3 class="card-title"><span><a href="https://alyssadaniels.com" target="_blank">Photo</a></span></h3>
+                    </div>
+                </figure>
+            </div>
+            <!-- Creating a card for each portfolio entry -->
+            <div class="col mb-4">
+                <figure class="card">
+                    <img src="math.jpg" class="card-img-top" alt="Math Image">
+                    <div class="card-body">
+                        <h3 class="card-title"><span><a href="https://dammath.com" target="_blank">Game</a></span></h3>
+                    </div>
+                </figure>
+            </div>
+            <!-- Blank cards to push everything to the left -->
+            <div class="col mb-4">
+                <figure class="card">
+                    <img src="photography.jpg" class="card-img-top" alt="Photography">
+                    <div class="card-body">
+                        <h3 class="card-title"><span><a href="" target="_blank">Placeholder</a></span></h3>
+                    </div>
+                </figure>
+            </div>
+            <div class="col mb-4">
+                <figure class="card">
+                    <img src="photography.jpg" class="card-img-top" alt="Photography">
+                    <div class="card-body">
+                        <h3 class="card-title"><span><a href="" target="_blank">Placeholder</a></span></h3>
+                    </div>
+                </figure>
+            </div>
+            <!-- Blank cards to push everything to the left -->
+        </div>
+    </div>
+
+    <footer class="footer mt-auto py-3">
+        <div class="container">
+            <span class="text-muted">Created by DAMMTechnologies</span>
+        </div>
+    </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+</body>
+
+</html>
