@@ -27,6 +27,7 @@ app.use('/contact', contact);
 app.use('/', pageRouter);
 // app.use('/portfolio', portfolio);
 
-app.listen(3000, () => {
+var PORT = process.env.PORT || 3000;
+app.listen(PORT, () => {
   console.log('Server is running at localhost:3000');
 });
