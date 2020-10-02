@@ -13,7 +13,7 @@ router.post('/send', (req, res) => {
   var email = req.body.email;
   var enquiry = req.body.enquiry;
 
-  var emailMessage = `Hi ${name},\n\nThank you for contacting us.\n\nYour email is: ${email}.\n\nYour enquiry is: ${enquiry}\n.`;
+  var emailMessage = `Hi ${name},\n\nThank you for contacting us.\n\nYour email is: ${email}.\n\nYour enquiry is: ${enquiry}\n\nWe will get back to as soon as possible.\n.`;
   var emailMessage2 = `Email from ${name},\n\nTheir email address is: ${email}.\n\nPlease follow-up on - ${enquiry}\n.`;
 
   console.log(emailMessage);
