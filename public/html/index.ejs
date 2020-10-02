@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <%- include ./include/head %>
+        <script>console.log("just after include")</script>
+
+        <!-- <link rel="stylesheet" href="/css/style.css"> -->
+        <!-- <script>console.log("just after css statement")</script> -->
+
+        <!-- Title of browser page -->
+        <title>Portfolio</title>
+        <!-- Title of browser page -->
+    </head>
+    
+    <body>
+        <% include ./include/nav %>
+        <section>
+            <div class="container abouttextcontainer">
+                <div class="row">
+                    <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                        <!-- Page header -->
+                        <h3 id="headerstyling">About Me</h3>
+                        <!-- Page header -->
+    
+                        <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                            <figure>
+                                <!-- Image for about/home page -->
+                                <img src="./images/20200527_233118.jpg" alt="About pic" class="img-responsive float-left mr-3" style="max-width: 50%;">
+                                <!-- Image for about/home page -->
+                            </figure>
+                            <!-- Text description for about/home page -->
+                            <p class="text-white abouttext">I am an experienced Technical Manager and Technology Architect with expertise in the health care software industry. I have proven success leading teams, building teams, 
+                                creating and growing a business verticle, supporting sales and marketing, implementing software upgrades and solutions. I am accomplished in providing technical support to clients, leading teams 
+                                and troubleshooting.
+                            </p>
+                            <p class="text-white abouttext"> I have a BS in Electrical Engineering, a MS in Engineering Management and recently completed a full stack web development boot camp through the University of Kansas.
+                            </p>
+                            <p class="text-white abouttext"> Technical Skills include: Web Development - (HTML, JavaScript, jQuery, CSS, BootStrap, Git, API’s, Heroku, Node.js, Express.js, MySQL, Handlebars and ESLint), Virtualization, Linux, SAN, Networking.
+                            </p>
+                            <p class="text-white abouttext"> Management Skills include: Leadership, Team Building, Mentoring, Sales, Marketing, Pricing, Resource Modeling, Problem Management, Budgeting, Client Relations and Escalation Management.
+                            </p>
+                            <p class="text-white abouttext">My objective is to move into the engineering management side of a software company where I can impact solutions and clients further up stream. I thrive on challenging work and prefer that each day is different. I would like to
+                                work remote in my new role but realize that office time is also important.
+                            </p>
+                            <p class="text-white abouttext">I am a photographer on the side and prefer landscape/nature photography. Other priorities include riding my motorcycle, spending time with my family and continuous learning.
+                            </p>
+                            <!-- Text description for about/home page -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <% include ./include/scripts %>
+        <% include ./include/footer %>
+
+        <footer class="footer mt-auto py-3">
+            <div class="container">
+                <span class="text-muted">Created by DAMMTechnologies</span>
+            </div>
+        </footer>
+        
+    </body>
+
+</html>
