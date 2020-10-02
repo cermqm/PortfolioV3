@@ -4,7 +4,7 @@
   "description": "node email testing",
   "main": "app.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node ."
   },
   "author": "Michael A. Mink",
   "license": "ISC",
