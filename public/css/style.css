@@ -151,7 +151,7 @@ body {
     background: url("/images/background.jpg") no-repeat center center fixed;
     background-size: 150% 150%;
     height: 100%;
-    overflow: hidden;
+    /* overflow: hidden; */
   }
 
 /* html { 
