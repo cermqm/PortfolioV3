@@ -141,11 +141,26 @@ h6 span {
     text-align: center;
 }
 
-body {
+/* body {
     background-image: url("/images/background.jpg");
     background-size: 150% 150%;
     background-repeat: no-repeat;
-}
+} */
+
+body {
+    background: url("/images/background.jpg") no-repeat center center fixed;
+    background-size: 150% 150%;
+    height: 100%;
+    overflow: hidden;
+  }
+
+/* html { 
+    background: url("/images/background.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  } */
 
 .card-title {
     text-align: center;
