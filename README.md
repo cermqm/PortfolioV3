@@ -1,102 +1,78 @@
-#Below are the instructions for HomeWork #2.
+## The title of this project is Readme Generator.
+        
+License - [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-I added the screen shots of the app and the Nu Html Checker to the google drive below.
-
-https://drive.google.com/drive/folders/11w2vE_nrSMS00mNk7EPtWnkHaz_S7GeV?usp=sharing 
-
-The assignment was focused around bootstrap and a responsive design and various resolutions.
-
-The porfolio links are some websites that I have worked on and 2 of our homework assignments.  There are also 2 place holders for future websites/projects.
-
-
-
-#BootstrapHW
-# Unit 02 CSS and Bootstrap Homework: Responsive Portfolio
-
-Responsive design ensures that web applications render well on a variety of devices and window or screen sizes. As a developer, you will likely be asked to create a mobile-first application or add responsive design to an existing application. 
+## Table of Contents 
+* [Installation](#Installation-instructions) 
+* [Usage](#Usage) 
+* [License](#License)
+* [Contributing](#Contributing)
+* [Tests](#Tests)
+* [Questions](Questions)
 
 
-## Directions
+### - Installation Instructions
+    Download code, run index.html if web based, run npm install, then run node index.js if node based.
 
-First, you will use the Bootstrap CSS Framework to create a mobile responsive portfolio. How do you deliver this? Here are some guidelines:
+### - Usage
+    Use this program to generate a well formatted readme for your project.  There will be several standard sections and a table of contents.
 
-* Create the following files files: `index.html`, `portfolio.html` and `contact.html`.
+### - License
+    The license used for this project is the MIT license.
 
-* Using Bootstrap, develop your portfolio site with the following items:
+### - Contributing
+    To suggest improvements email <mmink@michaelamink.com> or log an issue under the specific project in the GitHub repo - 
+[GitHub](https://github.com/cermqm)
 
-   * A navbar
+### - Tests
+    Test this project by running node index.js and answering the prompts.  You will then review the readme.md and determine if it meets your needs.
 
-   * A responsive layout
+### - Questions
+    For questions contact Michael A. Mink at the following email -
 
-   * Responsive images
+<mmink@michaelamink.com>
 
-* The Bootstrap portfolio should minimize the use of media queries.
+    You can also log an issue under the specific project on GitHub - 
 
-* Screenshots are provided as a reference in the `Assets/Images` folder. Your app does not need to be _exactly_ like the images. Use Bootstrap to create a similar, responsive layout.
-
-### Hints
-
-* Use Bootstrap's grid system (containers, rows, and columns).
-
-* On an `xs` screen, content should take up the entire screen. On `sm` and larger screens, you should have some margins on the left and right sides of the screen. Check out various sites on your mobile device vs. your computer to see examples of these differences.
-
-* Use an HTML validation service to ensure that each page has valid HTML.
-
-### Minimum Requirements
-
-* Functional, deployed application
-
-* GitHub repository with README describing the project
-
-* Navbar must be consistent on each page.
-
-* Navbar on each page must contain links to Home/About, Contact, and Portfolio pages.
-
-* All links must work.
-
-* Must use semantic html.
-
-* Each page must have valid and correct HTML. (use a validation service)
-
-* Must contain your personalized information. (bio, name, images, links to social media, etc.)
-
-* Must properly utilize Bootstrap components and grid system.
+[GitHub](https://github.com/cermqm)
 
 
-### Bonus
+## The title of this project is Portfolio V3.
+        
+License - [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-* Using Bootstrap, make a sticky footer and use sub-rows and sub-columns on your portfolio site (**Hint:** Check out the Bootstrap documentation).
-
-
-## Commit Early and Often
-
-One of the most important skills to master as a web developer is version control. Building the habit of committing via Git is important for two reasons:
-
-* Your commit history is a signal to employers that you are actively working on projects and learning new skills.
-
-* Your commit history allows you to revert your codebase in the event that you need to return to a previous state.
-
-Follow these guidelines for committing:
-
-* Make single-purpose commits for related changes to ensure a clean, manageable history. If you are fixing two issues, make two commits.
-
-* Write descriptive, meaningful commit messages so that you and anyone else looking at your repository can easily understand its history.
-
-* Don't commit half-done work, for the sake of your collaborators (and your future self!).
-
-* Test your application before you commit to ensure functionality at every step in the development process.
-
-We would like you to have well over 200 commits by graduation, so commit early and often!
+## Table of Contents 
+* [Installation](#Installation-instructions) 
+* [Usage](#Usage) 
+* [License](#License)
+* [Contributing](#Contributing)
+* [Tests](#Tests)
+* [Questions](Questions)
 
 
-## Submission on BCS
+### - Installation Instructions
+    Download code, run index.html if web based, run npm install, then run node index.js if node based.
 
-You are required to submit the following:
+### - Usage
+    This will be used by client and businesses to review my work and hire me.
 
-* The URLs of the deployed applications
+### - License
+    The license used for this project is the MIT license.
 
-* The URLs of the GitHub repositories
+### - Contributing
+    To suggest improvements email <mmink@michaelamink.com> or log an issue under the specific project in the GitHub repo - 
+[GitHub](https://github.com/cermqm)
 
-- - -
+### - Tests
+    validate that all pages are viewable and that the contact page works as needed...
 
-© 2019 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
+### - Questions
+    For questions contact Michael A. Mink at the following email -
+
+<mmink@michaelamink.com>
+
+    You can also log an issue under the specific project on GitHub - 
+
+[GitHub](https://github.com/cermqm)
+
+
