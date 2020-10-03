@@ -20,13 +20,15 @@ router.post('/send', (req, res) => {
   res.redirect('/contact_send');
 
   var smtpConfig = {
-    host: 'mail.michaelamink.com',
+    host: 'box2030.bluehost.com',
     port: 465,
     secure: true, // use SSL
     auth: {
         user: 'minkcontactform@michaelamink.com',
         pass: 'mminkmmink'
-    }
+    },
+    debug: true, // show debug output
+    logger: true // log information in console
 };
 
   var transporter = nodemailer.createTransport(smtpConfig);
