@@ -2,126 +2,128 @@
 <html lang="en">
 
 <head>
-    <% include ./include/head %>      
+    <% include ./include/head %>
 </head>
 
 <body>
 
     <% include ./include/nav %>
-    <!-- I started with the contact form from the location below and modified -->
-    <!-- https://mdbootstrap.com/docs/jquery/forms/contact/ -->
-    <!--Section: Contact v.2-->
-    <section class="mb-4 contactform">
+        <!-- I started with the contact form from the location below and modified -->
+        <!-- https://mdbootstrap.com/docs/jquery/forms/contact/ -->
+        <!--Section: Contact v.2-->
+        <section class="mb-4 contactform">
 
-        <!--Section description-->
+            <!--Section description-->
 
-        <div class="row">
+            <div class="row">
 
-            <!--Grid column-->
-            <div class="col-md-12 mb-md-0 mb-5" method="post" action="contact/send">
-                <!-- Page header -->
-                <h3 id="headerstyling" class="col-md-12">Contact Form</h3>
-                <!-- Page header -->
-                <form id="contact-form" name="contact-form" action="contact/send" method="POST">
-                    <!--Grid row-->
-                    <div class="row">
-                        <!--Grid column-->
-                        <div class="col-md-12">
-                            <div class="md-form mb-0 form-group">
-                                <input type="text" id="name" name="name" class="form-control" size="50" style=width:auto>
-                                <label for="name" class="" style="color: white">Your name</label>
+                <!--Grid column-->
+                <div class="col-md-12 mb-md-0 mb-5" method="post" action="contact/send">
+                    <!-- Page header -->
+                    <h3 id="headerstyling" class="col-md-12">Contact Form</h3>
+                    <!-- Page header -->
+                    <form id="contact-form" name="contact-form" action="contact/send" method="POST">
+                        <!--Grid row-->
+                        <div class="row">
+                            <!--Grid column-->
+                            <div class="col-md-12">
+                                <div class="md-form mb-0 form-group">
+                                    <input type="text" id="name" name="name" class="form-control" size="50" style=width:auto>
+                                    <label for="name" class="" style="color: white">Your name</label>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <!--Grid row-->
-
-                    <!--Grid column-->
-
-                    <!--Grid column-->
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="md-form mb-0" class="form-group">
-                                <input type="text" id="email" name="email" class="form-control" size="50" style=width:auto>
-                                <label for="email" class="" style="color: white">Your email</label>
-                            </div>
-                        </div>
-                    </div>
-                    <!--Grid column-->
-
-                    <!--Grid row-->
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="md-form mb-0" class="form-group">
-                                <input type="text" id="subject" name="subject" class="form-control" size="50" style=width:auto>
-                                <label for="subject" class="" style="color: white">Subject</label>
-                            </div>
-                        </div>
-                    </div>
-                    <!--Grid row-->
-
-                    <!--Grid row-->
-                    <div class="row">
+                        <!--Grid row-->
 
                         <!--Grid column-->
-                        <div class="col-md-12">
 
-                            <div class="md-form" class="form-group">
-                                <textarea id="enquiry" name="enquiry" rows="2" class="form-control md-textarea" size="50" style=width:auto></textarea>
-                                <label for="message" style="color: white">Your message</label>
+                        <!--Grid column-->
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="md-form mb-0" class="form-group">
+                                    <input type="text" id="email" name="email" class="form-control" size="50" style=width:auto>
+                                    <label for="email" class="" style="color: white">Your email</label>
+                                </div>
                             </div>
-
                         </div>
-                    </div>
-                    <!--Grid row-->
+                        <!--Grid column-->
 
-                    <div class="float-left"> <!-- align button to the left -->
-                        <button type="submit" class="btn btn-primary btn-md">Submit</button>
-                    </div>
+                        <!--Grid row-->
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="md-form mb-0" class="form-group">
+                                    <input type="text" id="subject" name="subject" class="form-control" size="50" style=width:auto>
+                                    <label for="subject" class="" style="color: white">Subject</label>
+                                </div>
+                            </div>
+                        </div>
+                        <!--Grid row-->
 
-                    <div>
-                        </br>
-                        </br>
-                        </br>
-                        <ul class="list-unstyled mb-0">
+                        <!--Grid row-->
+                        <div class="row">
 
-                            <li><i class="fas fa-map-marker-alt fa-2x"></i>
-                                <a style="color: white">Michael A. Mink</a>
-                            </li>
-                            <li><i class="fas fa-map-marker-alt fa-2x"></i>
-                                <a style="color: white">Kansas City, Missouri 64118</a>
-                            </li>
+                            <!--Grid column-->
+                            <div class="col-md-12">
 
-                            <li><i class="fas fa-phone mt-4 fa-2x"></i>
-                                <a style="color: white">816-820-7736</a>
-                            </li>
+                                <div class="md-form" class="form-group">
+                                    <textarea id="enquiry" name="enquiry" rows="2" class="form-control md-textarea" size="50" style=width:auto></textarea>
+                                    <label for="message" style="color: white">Your message</label>
+                                </div>
 
-                            <li><i class="fas fa-envelope mt-4 fa-2x"></i>
-                                <a style="color: white" target="_blank">mmink@michaelamink.com</a>
-                            </li>
-                            <li><i class="fas fa-envelope mt-4 fa-2x"></i>
-                                <a style="color: white" href="https://github.com/cermqm/" target="_blank">GitHub</a>
-                            </li>
-                            <li><i class="fas fa-envelope mt-4 fa-2x"></i>
-                                <a style="color: white" href="https://www.linkedin.com/in/michael-mink-3183b04/" target="_blank">Linkedin</a>
-                            </li>
-                            <li><i class="fas fa-envelope mt-4 fa-2x"></i>
-                                <a style="color: white" href="resume.pdf" target="_blank">Resume</a>
-                            </li>
-                            <li><i class="fas fa-envelope mt-4 fa-2x"></i>
-                                <a style="color: white" href="https://photography.michaelamink.com" target="_blank">Photography Website</a>
-                            </li>
-                        </ul>
-                    </div>
+                            </div>
+                        </div>
+                        <!--Grid row-->
 
-                </form>
+                        <div class="float-left">
+                            <!-- align button to the left -->
+                            <button type="submit" class="btn btn-primary btn-md">Submit</button>
+                        </div>
+
+                        <div>
+                            </br>
+                            </br>
+                            </br>
+                            <ul class="list-unstyled mb-0">
+
+                                <li><i class="fas fa-map-marker-alt fa-2x"></i>
+                                    <a style="color: white">Michael A. Mink</a>
+                                </li>
+                                <li><i class="fas fa-map-marker-alt fa-2x"></i>
+                                    <a style="color: white">Kansas City, Missouri 64118</a>
+                                </li>
+
+                                <li><i class="fas fa-phone mt-4 fa-2x"></i>
+                                    <a style="color: white">816-820-7736</a>
+                                </li>
+
+                                <li><i class="fas fa-envelope mt-4 fa-2x"></i>
+                                    <a style="color: white" target="_blank">mmink@michaelamink.com</a>
+                                </li>
+                                <li><i class="fas fa-envelope mt-4 fa-2x"></i>
+                                    <a style="color: white" href="https://github.com/cermqm/" target="_blank">GitHub</a>
+                                </li>
+                                <li><i class="fas fa-envelope mt-4 fa-2x"></i>
+                                    <a style="color: white" href="https://www.linkedin.com/in/michael-mink-3183b04/" target="_blank">Linkedin</a>
+                                </li>
+                                <li><i class="fas fa-envelope mt-4 fa-2x"></i>
+                                    <a style="color: white" href="./html/resume.pdf" target="_blank">Resume</a>
+                                </li>
+                                <li><i class="fas fa-envelope mt-4 fa-2x"></i>
+                                    <a style="color: white" href="https://photography.michaelamink.com" target="_blank">Photography Website</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                    </form>
 
 
-                <div class="status"></div>
+                    <div class="status"></div>
+                </div>
             </div>
-        </div>
-    </section>
-    <!--Section: Contact v.2-->
+        </section>
+        <!--Section: Contact v.2-->
         <% include ./include/scripts %>
-        <% include ./include/footer %>
-    </body>
+            <% include ./include/footer %>
+</body>
+
 </html>
